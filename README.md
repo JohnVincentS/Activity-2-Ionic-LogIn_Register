@@ -14,3 +14,8 @@ This page shows the signup page which the user will enter their credentials to c
 After the user successfuly register, they will redirect to the login page and enter their username and password. After clicking the login button, page shows successfully login.
 
 ![successlogin](https://user-images.githubusercontent.com/108405475/180139987-aa569e8f-5db4-4af4-a5a1-283461294196.png)
+
+# Adding features in login form with controllers
+
+![Controllers](https://user-images.githubusercontent.com/108405475/181189939-345a89aa-0067-4526-a643-0843980dd9dd.png)
+
