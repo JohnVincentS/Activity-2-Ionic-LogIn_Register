@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item>
+    <ion-label position="floating">Username</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <div class="signup_link">
+    Not register? <a href="signup">Signup</a>
+  </div>
+  <ion-button color="success" size="full" routerLink="/login">Login</ion-button>
+  <ion-button color="success" size="full" (click)="loading()">Loading Button</ion-button>
+  <!--<ion-button color="success" size="full" (click)="gotoLogin()">Login</ion-button> For NavCtrl-->
+  <ion-button color="success" size="full" (click)="presentAlert()">Alert</ion-button>
+  <ion-button color="success" size="full" (click)="actionSheet()">Action Sheet</ion-button>
+  <ion-button color="success" size="full" (click)="openModal()">Open Modal</ion-button>
+  <ion-button color="success" size="full" (click)="showToast()">Toast</ion-button>
+</ion-content>
