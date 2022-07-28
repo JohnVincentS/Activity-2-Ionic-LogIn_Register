@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="form">
+
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input [(ngModel)]="email"></ion-input>
+    </ion-item>
+    <br>
+
+    <ion-item>
+      <ion-label position="stacked">Password</ion-label>
+      <ion-input [(ngModel)]="password"></ion-input>
+    </ion-item>
+
+    <ion-button color="success" (click)="login()" expand="block">Login</ion-button>
+    <h5 (click)="signup()">Dont have an account? <ion-text color="primary">Signup Here</ion-text>
+
+    </h5>
+  </div>
+</ion-content>
