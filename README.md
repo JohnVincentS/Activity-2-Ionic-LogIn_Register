@@ -19,3 +19,7 @@ After the user successfuly register, they will redirect to the login page and en
 
 ![Controllers](https://user-images.githubusercontent.com/108405475/181189939-345a89aa-0067-4526-a643-0843980dd9dd.png)
 
+#AuthPage Screenshot
+
+![login1](https://user-images.githubusercontent.com/108405475/181546475-2acba93c-1145-4791-b8f7-db43aae90a66.png)
+![authpage](https://user-images.githubusercontent.com/108405475/181546517-b9a965d5-e3bb-4a0b-8b87-26d46b06a505.png)
